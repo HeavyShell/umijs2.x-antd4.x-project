@@ -12,11 +12,16 @@ http://umi2x-antd4x.ixiewei.com/
 
 antd升级到4.x版本后，有很多配置和写法有所不同，具体参考官网：https://ant.design/index-cn
 
-本项目列举所用的部分；
+本项目列举所用的部分：
+
 1 Form.create()已移除，使用hook属性Form.useForm()代替，Form.Item和onFinish使用也有不同
+
 2 Icon已移除，直接使用import { UserOutlined,LockOutlined } from '@ant-design/icons';
+
 需动态创建icon组件可使用如下方式：
+
 （1）引入import  * as Icon from '@ant-design/icons';
+
 （2）
 	{
 	  React.createElement(
