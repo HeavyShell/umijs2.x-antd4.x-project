@@ -10,7 +10,7 @@ http://umi2x-antd4x.ixiewei.com/
 "antd": "^4.8.0",
 
 
-antd升级到4.x版本后，有很多配置和写法有所不同，具体参考官网：https://ant.design/index-cn
+#### antd升级到4.x版本后，有很多配置和写法有所不同，具体参考官网：https://ant.design/index-cn
 
 本项目列举所用的部分：
 
